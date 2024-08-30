@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-image: url('background.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+.header .content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.header h4 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.header p {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.header button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.header button:hover {
+    background-color: #ff4500;
+}
